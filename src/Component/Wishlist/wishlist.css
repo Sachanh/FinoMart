@@ -1,0 +1,14 @@
+.wishlist {
+  flex-direction: column;
+  gap: 1rem;
+  display: flex;
+  margin: 1rem 2rem;
+  height: 100%;
+  margin-bottom: 8rem;
+}
+
+h1 {
+  margin-top: 8rem;
+  text-align: center;
+  color: black;
+}

@@ -1,0 +1,41 @@
+.normal-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-container {
+  position: relative;
+  margin-top: 8rem;
+}
+.overlay-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.overlay-container:hover .overlay-text {
+  opacity: 0.95;
+}
+
+.heading-main-text,
+.center-text {
+  font-weight: 700;
+  font-size: 25px;
+  border: none;
+}
+.rounded-corner {
+  font-weight: 800;
+  padding: 0.75rem 1rem;
+}

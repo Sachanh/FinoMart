@@ -1,0 +1,23 @@
+.card-outer-div {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.fas,
+.far {
+  margin: 0.25rem;
+  color: black;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.main {
+  margin-top: 2rem;
+}

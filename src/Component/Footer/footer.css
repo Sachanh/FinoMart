@@ -1,0 +1,20 @@
+.heart {
+  color: red;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  height: fit-content;
+  background-color: gray;
+}
+
+.footer-menu {
+  margin-top: 1rem;
+}
+
+.other {
+  margin-bottom: 1rem;
+}
